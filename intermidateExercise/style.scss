@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px){
+    body {
+    display:flex;
+    flex-flow:column;
+    background-color:lightblue;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px){
+    body {
+        display:flex;
+        flex-flow:column;
+        background-color:red;
+    }
+
+}
+
+@media screen and (min-width: 1201px){
+    body {
+        display:flex;
+        flex-flow:column;
+        background-color:rgb(26, 167, 14);
+    }
+}
+
