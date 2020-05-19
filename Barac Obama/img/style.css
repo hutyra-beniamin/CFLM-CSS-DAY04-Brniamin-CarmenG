@@ -1,11 +1,30 @@
 * {
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header {
-  background-color: yellow;
-  background-image: url "img/img1.jpg";
+  background-color: lightblue;
+  height: 200px;
+  font-size: 2.5em;
+  font-family: sans-serif;
 }
 
 .navbar {
@@ -24,10 +43,38 @@
           align-items: flex-start;
   width: 40%;
   height: 25px;
+  font-size: 1em;
 }
 
 .nav {
   background: darkcyan;
   height: 50px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  color: darkgrey;
+  padding: 1em;
+  padding-top: 27em;
+  margin: 1em;
+  margin-top: 3em;
+  text-align: center;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+.container div {
+  padding-top: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
