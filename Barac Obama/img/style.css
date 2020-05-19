@@ -27,6 +27,10 @@ body {
   font-family: sans-serif;
 }
 
+.header img {
+  width: 100%;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
